@@ -1,0 +1,23 @@
+@import '~bootstrap/scss/bootstrap';
+@import './admin.scss';
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.custom-btn {
+  padding: 0.5rem 2.5rem;
+}
+
+.sidebar-content {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.sidebar-content::-webkit-scrollbar {
+  display: none;
+}
+
+.intro {
+  margin-top: 3rem;
+}
